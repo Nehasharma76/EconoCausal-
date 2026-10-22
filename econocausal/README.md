@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # EconoCausal: Dynamic Pricing via Double Machine Learning
 
 Standard ML predicts who is likely to buy. EconoCausal estimates **how much a discount changes each customer's
@@ -67,3 +68,7 @@ On the synthetic data (5,000 customers, true average effect of the discount = +0
 - `main` holds merged code only; the Team Lead reviews and merges.
 - Each member commits to their own branch (for example `member-a`, `member-b`).
 - Commit meaningful changes at least daily. Empty or single-character commits do not count.
+=======
+# EconoCausal-
+Causal AI platform using Double Machine Learning (DML) to estimate customer treatment effects and optimize promotional discounts under budget constraints.
+>>>>>>> bdd191b2e8d670dedc65d24c280642fe5ef52fd4
