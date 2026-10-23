@@ -65,3 +65,16 @@ th { background: var(--paper); font-weight: 600; }
 .state.ok { color: var(--teal-dark); font-weight: 600; }
 
 @media (max-width: 800px) { .grid { grid-template-columns: 1fr; } .top h1 { font-size: 2rem; } }
+
+/* Week 2: tabs, segmented control, charts */
+.tabs { display: flex; gap: 6px; margin-bottom: 24px; border-bottom: 1px solid var(--line); }
+.tabs button, .seg button {
+  background: transparent; color: var(--muted); border: 1px solid transparent; border-radius: 4px 4px 0 0;
+}
+.tabs button:hover:not(:disabled), .seg button:hover:not(:disabled) { background: #eef6f6; color: var(--teal-dark); }
+.tabs button.on { color: var(--teal-dark); border-color: var(--line); border-bottom-color: var(--paper); background: var(--paper); font-weight: 600; margin-bottom: -1px; }
+.results { display: grid; gap: 20px; }
+.seg { display: inline-flex; border: 1px solid var(--teal); border-radius: 4px; overflow: hidden; margin-bottom: 8px; }
+.seg button { border: 0; border-radius: 0; background: #fff; color: var(--teal); }
+.seg button.on { background: var(--teal); color: #fff; }
+.chart { width: 100%; height: 380px; }
