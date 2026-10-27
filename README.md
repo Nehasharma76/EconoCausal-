@@ -89,7 +89,7 @@ Held-out test set of 1,500 customers. Extra purchases when the discount goes to 
 - DoWhy refutation tests pass: a placebo treatment gives about 0, and a random extra confounder or 80% data
   subsets leave the estimate unchanged (`docs/refutation_results.txt`).
 
-## Git workflow (required by Infotact)
+## Git workflow 
 
 - `main` holds merged code only; the Team Lead reviews and merges.
 - Each member commits to their own branch (for example `member-a`, `member-b`).
