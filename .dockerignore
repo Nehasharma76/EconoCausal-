@@ -1,0 +1,8 @@
+.git
+.venv
+__pycache__
+frontend
+docs
+backend/data
+backend/tests
+backend/causal
