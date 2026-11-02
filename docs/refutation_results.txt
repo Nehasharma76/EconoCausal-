@@ -1,0 +1,22 @@
+Original estimated effect: +0.1607
+
+=== placebo_treatment_refuter ===
+Refute: Use a Placebo Treatment
+Estimated effect:0.16067189366945261
+New effect:-0.0010630445755738394
+p value:0.46818790819091904
+
+
+=== random_common_cause ===
+Refute: Add a random common cause
+Estimated effect:0.16067189366945261
+New effect:0.1606341195861381
+p value:0.415181202641138
+
+
+=== data_subset_refuter ===
+Refute: Use a subset of data
+Estimated effect:0.16067189366945261
+New effect:0.16017141789188638
+p value:0.47162230190740806
+

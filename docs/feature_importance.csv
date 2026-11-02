@@ -1,0 +1,6 @@
+feature,forest_importance,correlation_with_effect
+price_sensitivity,0.5576,0.8713
+past_spend,0.2458,-0.213
+tenure_months,0.1154,0.0439
+visits_per_month,0.0536,0.076
+region,0.0276,0.0755

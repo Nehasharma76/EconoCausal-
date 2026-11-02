@@ -1,0 +1,113 @@
+{
+  "No drift": {
+    "n_rows": 1500,
+    "overall": "ok",
+    "features": [
+      {
+        "feature": "past_spend",
+        "psi": 0.0135,
+        "status": "ok",
+        "mean_shift_std": -0.036
+      },
+      {
+        "feature": "tenure_months",
+        "psi": 0.0072,
+        "status": "ok",
+        "mean_shift_std": 0.012
+      },
+      {
+        "feature": "visits_per_month",
+        "psi": 0.0041,
+        "status": "ok",
+        "mean_shift_std": 0.0
+      },
+      {
+        "feature": "price_sensitivity",
+        "psi": 0.0055,
+        "status": "ok",
+        "mean_shift_std": -0.0
+      },
+      {
+        "feature": "region",
+        "psi": 0.002,
+        "status": "ok",
+        "mean_shift_std": null
+      }
+    ],
+    "notes": []
+  },
+  "Mild drift": {
+    "n_rows": 1500,
+    "overall": "warning",
+    "features": [
+      {
+        "feature": "past_spend",
+        "psi": 0.1337,
+        "status": "warning",
+        "mean_shift_std": 0.462
+      },
+      {
+        "feature": "tenure_months",
+        "psi": 0.0072,
+        "status": "ok",
+        "mean_shift_std": 0.012
+      },
+      {
+        "feature": "visits_per_month",
+        "psi": 0.0041,
+        "status": "ok",
+        "mean_shift_std": 0.0
+      },
+      {
+        "feature": "price_sensitivity",
+        "psi": 0.0055,
+        "status": "ok",
+        "mean_shift_std": -0.0
+      },
+      {
+        "feature": "region",
+        "psi": 0.002,
+        "status": "ok",
+        "mean_shift_std": null
+      }
+    ],
+    "notes": []
+  },
+  "Strong drift": {
+    "n_rows": 1500,
+    "overall": "alert",
+    "features": [
+      {
+        "feature": "past_spend",
+        "psi": 0.2518,
+        "status": "alert",
+        "mean_shift_std": 0.676
+      },
+      {
+        "feature": "tenure_months",
+        "psi": 0.0072,
+        "status": "ok",
+        "mean_shift_std": 0.012
+      },
+      {
+        "feature": "visits_per_month",
+        "psi": 0.7193,
+        "status": "alert",
+        "mean_shift_std": 0.802
+      },
+      {
+        "feature": "price_sensitivity",
+        "psi": 0.0055,
+        "status": "ok",
+        "mean_shift_std": -0.0
+      },
+      {
+        "feature": "region",
+        "psi": 0.6232,
+        "status": "alert",
+        "mean_shift_std": null
+      }
+    ],
+    "notes": []
+  }
+}

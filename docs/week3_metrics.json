@@ -1,0 +1,94 @@
+{
+  "budget": 5000,
+  "tiers": [
+    10,
+    20
+  ],
+  "n_customers": 1500,
+  "results": {
+    "optimizer": {
+      "estimated": {
+        "customers_discounted": 481,
+        "spend": 5000.0,
+        "extra_purchases": 73.9894408464,
+        "net_revenue": 4642.923059797024
+      },
+      "true": {
+        "customers_discounted": 481,
+        "spend": 5000.0,
+        "extra_purchases": 56.41846999999999,
+        "net_revenue": 2364.80889122555
+      }
+    },
+    "blanket": {
+      "estimated": {
+        "customers_discounted": 250,
+        "spend": 5000.0,
+        "extra_purchases": 38.214175998,
+        "net_revenue": 288.46237942316503
+      },
+      "true": {
+        "customers_discounted": 250,
+        "spend": 5000.0,
+        "extra_purchases": 33.3292,
+        "net_revenue": -231.93390065149526
+      }
+    },
+    "likely_buyers": {
+      "estimated": {
+        "customers_discounted": 250,
+        "spend": 5000.0,
+        "extra_purchases": 28.964103506000004,
+        "net_revenue": 25.889567204018164
+      },
+      "true": {
+        "customers_discounted": 250,
+        "spend": 5000.0,
+        "extra_purchases": 10.723,
+        "net_revenue": -2443.465117000762
+      }
+    }
+  },
+  "sweep": {
+    "budgets": [
+      500,
+      1000,
+      2500,
+      5000,
+      7500,
+      10000,
+      15000,
+      20000
+    ],
+    "optimizer": [
+      284.64,
+      681.5,
+      1443.76,
+      2364.81,
+      2871.42,
+      3058.87,
+      3057.08,
+      3057.08
+    ],
+    "blanket": [
+      47.43,
+      34.04,
+      -96.4,
+      -231.93,
+      -389.85,
+      -509.27,
+      -947.26,
+      -1243.03
+    ],
+    "likely_buyers": [
+      -720.95,
+      -1167.97,
+      -1979.62,
+      -2443.47,
+      -2622.57,
+      -2669.66,
+      -2428.88,
+      -2202.19
+    ]
+  }
+}
